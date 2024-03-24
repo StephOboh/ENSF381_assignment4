@@ -1,6 +1,6 @@
 import React from 'react';
 import ProductItem from './ProductItem';
-import productsData from './productsData'; // Assuming this contains product information
+import productsData from '../data/products'; // Assuming this contains product information
 
 function ProductList({ addToCart }) {
   return (
