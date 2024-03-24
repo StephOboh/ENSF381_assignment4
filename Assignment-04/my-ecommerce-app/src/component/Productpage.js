@@ -97,6 +97,7 @@ const ProductPage = () => {
     <div className="product-page">
       <Header />
       <table>
+        <h1>Producs Page</h1>
         <tr>
           <td><ProductList addToCart={addToCart} /></td>
           <td style={{ verticalAlign: 'top' }}><Cart cart={cart} removeFromCart={removeFromCart} /></td>
