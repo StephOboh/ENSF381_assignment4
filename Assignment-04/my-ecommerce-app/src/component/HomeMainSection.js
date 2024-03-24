@@ -29,7 +29,7 @@ function HomeMainSection() {
 
 
     return (
-        <HomeMainSection>
+        <section className='home-main-section'>
             <div className='aboutUs'>
                 <h2>About Us</h2>
                 <p>
@@ -54,7 +54,7 @@ function HomeMainSection() {
                 </div>
             ))}
             </div>
-        </HomeMainSection>
+        </section>
     );
     }
 

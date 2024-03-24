@@ -11,11 +11,11 @@ import React from 'react';
 
 function Footer() {
   return (
-    <Footer>
+    <footer>
       <div className='footer'>
         <p>©2024 Your Company Name. All rights reserved.</p>
       </div>
-    </Footer>
+    </footer>
   );
 }
 

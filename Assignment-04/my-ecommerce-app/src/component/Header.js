@@ -14,7 +14,7 @@ import './Header.css'; // import link to styling sheet
 
 function Header() {
   return (
-    <Header className='header'>
+    <header className='header'>
       <div className='logoHeader'>
         <img src = "public/images/logo.png" alt = "Company logo"></img></div>
       <div className='company-nameHeaeder'>Company Name</div>
@@ -23,7 +23,7 @@ function Header() {
         <Link to="/Productpage" >Products</Link>
         <Link to="/Login" >Login</Link> 
       </nav>
-    </Header>
+    </header>
   );
 }
 
