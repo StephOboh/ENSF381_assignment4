@@ -9,9 +9,9 @@ Description : Main Home for Header Component
 */
 
 import React, {useState, useEffect} from 'react';
-import '/HomeMainSection.css';
+import './HomeMainSection.css';
 import { Link } from 'react-router-dom';
-import reviews from './reviews'; // Import the reviews array
+import reviews from '../data/review'; // Import the reviews array
 
 
 
