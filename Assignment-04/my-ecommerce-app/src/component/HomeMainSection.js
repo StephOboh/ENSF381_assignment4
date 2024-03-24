@@ -44,12 +44,12 @@ function HomeMainSection() {
 
         <div className='customerReviews'>
             <h2>Customer Reviews</h2>
-            {randomReviews.map((review, index) => (
+            {DisplayedReviews.map((review, index) => (
                 <div key={index} className="review">
                 <p>{review.customerName}</p>
                 <p>{review.reviewContent}</p>
                 <p>
-                    {"★".repeat(review.stars)}
+                    Rating: {"★".repeat(review.stars)}
                 </p>
             </div>
         ))}
