@@ -18,11 +18,11 @@ function Header() {
       <div className='logoHeader'>
         <img src = "public/images/logo.png" alt = "Company logo"></img></div>
       <div className='company-nameHeaeder'>Company Name</div>
-      <div className='navHeader'>
-        <a href='Homepage.js'>Home</a>
-        <a href='Productpage.js'>Products</a>
-        <a href='Login.js'>Login</a>
-      </div>
+      <nav className="navHeader">
+        <Link to="/Homepage" >Home</Link> 
+        <Link to="/Productpage" >Products</Link>
+        <Link to="/Login" >Login</Link> 
+      </nav>
     </header>
   );
 }

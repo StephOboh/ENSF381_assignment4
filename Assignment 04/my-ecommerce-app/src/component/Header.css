@@ -28,7 +28,7 @@ Description : Styling sheet for Header Component
     display: flex;
   }
   
-  .navHeader a {
+  .navHeader Link {
     color: #fff;
     margin: 0 1rem; /* Adjust as needed */
     font-size: 12px;
