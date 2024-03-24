@@ -27,4 +27,4 @@ function Homepage() {
   );
 }
 
-export default Header;
+export default Homepage;
