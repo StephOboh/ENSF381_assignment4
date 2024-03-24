@@ -1,5 +1,12 @@
-/* styling sheet for the header aspect  */
-/* Header.css */
+/*
+=========================================================
+Name        : Header.css
+Assignment  : Assignment 4
+Author(s)   : Sarah Yip (UCID: 30174831), Stephenie Oboh (UCID: 30151629)
+Submission  : March 24, 2024
+Description : Styling sheet for Header Component
+=========================================================
+*/
 
 .header {
     display: flex;
