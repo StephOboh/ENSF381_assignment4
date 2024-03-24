@@ -1,0 +1,29 @@
+/* styling sheet for the header aspect  */
+/* Header.css */
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+  }
+  
+  .logoHeader {
+    width: 50px; /* Adjust as needed */
+    height: 50px; /* Adjust as needed */
+  }
+  
+  .company-nameHeader {
+    font-size: 18px; /* Adjust as needed */
+  }
+  
+  .navHeader {
+    display: flex;
+  }
+  
+  .navHeader a {
+    color: #fff;
+    margin: 0 1rem; /* Adjust as needed */
+    font-size: 12px;
+  }
+  
