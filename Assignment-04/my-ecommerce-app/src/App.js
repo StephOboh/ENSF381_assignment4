@@ -1,15 +1,33 @@
+// import React from 'react';
+// import Homepage from './component/Homepage'
+// import Productpage from './component/Productpage'
+// import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+
+// function App() {
+//   return (
+//     <Router>
+//       <Routes>
+//         <Route path ="/" element ={<Homepage></Homepage>}></Route>
+//         <Route path="/Productpage" element={<Productpage></Productpage>}></Route>
+//       </Routes>
+//     </Router>
+//   );}
+
+// export default App;
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
-import Homepage from './component/Homepage'
-import Productpage from './component/Productpage'
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'; 
+import HomePage from './component/Homepage';
+import ProductPage from './component/Productpage';
 
 function App() {
   return (
-    <div className="App">
-      <Homepage> </Homepage>
-      <Productpage></Productpage>
-    </div>
+      <Router> 
+        <Routes>
+          <Route path="/" element={<HomePage />} /> 
+          <Route path="/products" element={<ProductPage />}/>
+        </Routes>
+      </Router>
+
   );
 }
 
