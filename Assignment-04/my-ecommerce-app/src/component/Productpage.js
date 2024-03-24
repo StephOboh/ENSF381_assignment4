@@ -1,9 +1,9 @@
 // import Headers, Productist, Cart, Footer
 import React, { useState, useEffect } from 'react';
-import Header from './src/components/Header';
-import ProductList from './src/components/ProductList';
-import Cart from './src/components/Cart';
-import Footer from './src/components/Footer';
+import Header from './Header';
+import ProductList from './ProductList';
+import Cart from './Cart';
+import Footer from './Footer';
 // import ProductPage from './src/components/Productpage'
 
 function Productpage() {
