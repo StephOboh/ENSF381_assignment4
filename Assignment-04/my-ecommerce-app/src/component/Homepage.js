@@ -1,29 +1,15 @@
 import React from 'react';
+import Header from './Header';
+import HomeMainSection from './HomeMainSection';
+import Footer from './Footer';
 
 function Homepage() {
   return (
-    <header>
-      {/* Your header content here */}
-    </header>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    <div>
+      <Header />
+      <HomeMainSection />
+      <Footer />
+    </div>
   );
 }
 
