@@ -10,7 +10,7 @@ Description : Main Home for Header Component
 
 import React, {useState, useEffect} from 'react';
 import './HomeMainSection.css';
-import { Link } from 'react-router-dom';
+import { Link } from 'react-router-dom'; // needed to include DOM links for button
 import reviews from '../data/reviews'; // Import the reviews array
 
 
@@ -47,10 +47,12 @@ const HomeMainSection = () =>{
                     <h2>Customer Reviews</h2>
                     {DisplayedReviews.map((review, index) => (
                         <div key={index} className="review">
+                        {/* from the selected review display the name and review  */}
                         <p>{review.customerName}</p>
                         <p>{review.reviewContent}</p>
                         <p>
                             Rating: {"★".repeat(review.stars)}
+                            {/* need to print a star for every star rating */}
                         </p>
                     </div>
                 ))}
