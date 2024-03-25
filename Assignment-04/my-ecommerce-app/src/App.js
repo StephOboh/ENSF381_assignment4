@@ -17,7 +17,7 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'; 
 import HomePage from './component/Homepage';
-import ProductPage from './component/Productpage'; // Import ProductPage.js from the components directory
+import ProductPage from './component/Productpage'; 
 
 
 function App() {
