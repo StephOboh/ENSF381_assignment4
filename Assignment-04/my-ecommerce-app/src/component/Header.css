@@ -18,15 +18,22 @@ Description : Styling sheet for Header Component
   
   .logoHeader {
     width: 100px; /* Adjust as needed */
+    margin: 10px;
   }
   
-  .companyNameText{
+  .header h1{
     font-size: 30px; /* Adjust as needed */
+    color: black;
+    text-align: right;
+    margin: 10px;
   }
   
   .navHeader {
     display: flex;
     color: black;
+    flex-direction: row;
+    justify-content: space-between;
+    margin:10px;
 
 
   }
