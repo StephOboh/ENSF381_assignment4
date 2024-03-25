@@ -12,18 +12,19 @@ import { Link } from 'react-router-dom'; // Import Link from react-router-dom
 import './Header.css'; // import link to styling sheet 
 
 
-function Header() {
+const Header = () =>{
   return (
-    <header className='header'>
-      <div className='logoHeader'>
-        <img src = "public/images/logo.png" alt = "Company logo"></img></div>
-      <div className='company-nameHeaeder'>Company Name</div>
-      <nav className="navHeader">
-        <Link to="/Homepage" >Home</Link> 
-        <Link to="/Productpage" >Products</Link>
-        <Link to="/Login" >Login</Link> 
-      </nav>
-    </header>
+    <div>
+      <header className='header'>
+          <img src = "/images/logo.png" alt = "Company logo" className='logoHeader'></img>
+          <h1 className='companyNameText'>Company Name</h1>
+        </header>
+        <nav className="navHeader">
+          <Link to="/Homepage" >Home</Link> 
+          <Link to="/Productpage" >Products</Link>
+          <Link to="/Login" >Login</Link> 
+        </nav>
+    </div>
   );
 }
 

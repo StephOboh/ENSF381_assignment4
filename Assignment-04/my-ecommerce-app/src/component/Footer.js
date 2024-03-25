@@ -9,7 +9,7 @@ Description : Footer for company website
 */
 import React from 'react';
 
-function Footer() {
+const Footer = () =>{
   return (
     <footer>
       <div className='footer'>

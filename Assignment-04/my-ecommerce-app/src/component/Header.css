@@ -8,29 +8,31 @@ Description : Styling sheet for Header Component
 =========================================================
 */
 
-.header {
+  .header {
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
     align-items: center;
     color: #fff;
   }
   
   .logoHeader {
-    width: 50px; /* Adjust as needed */
-    height: 50px; /* Adjust as needed */
+    width: 100px; /* Adjust as needed */
   }
   
-  .company-nameHeader {
-    font-size: 18px; /* Adjust as needed */
+  .companyNameText{
+    font-size: 30px; /* Adjust as needed */
   }
   
   .navHeader {
     display: flex;
+    color: black;
+
+
   }
   
   .navHeader Link {
-    color: #fff;
-    margin: 0 1rem; /* Adjust as needed */
-    font-size: 12px;
+    text-decoration: none;
+    margin: 20px;
   }
   

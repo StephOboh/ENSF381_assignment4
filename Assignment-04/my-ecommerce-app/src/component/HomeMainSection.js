@@ -15,7 +15,7 @@ import reviews from '../data/reviews'; // Import the reviews array
 
 
 
-function HomeMainSection() {
+const HomeMainSection = () =>{
     const [DisplayedReviews, setDisplayedReviews] = useState([]);
 
     useEffect(() => {
