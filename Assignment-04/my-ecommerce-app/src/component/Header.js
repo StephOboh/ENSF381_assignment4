@@ -17,7 +17,7 @@ const Header = () =>{
     <div>
       <header className='header'>
           <img src = "/images/logo.png" alt = "Company logo" className='logoHeader'></img>
-          <h1 className='companyNameText'>Company Name</h1>
+          <h1>Company Name</h1>
         </header>
         <nav className="navHeader">
           <Link to="/Homepage" >Home</Link> 
