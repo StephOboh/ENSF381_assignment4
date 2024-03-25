@@ -29,32 +29,34 @@ const HomeMainSection = () =>{
 
 
     return (
-        <section className='home-main-section'>
-            <div className='aboutUs'>
-                <h2>About Us</h2>
-                <p>
-                    Welcome to our online store! We are passionate about providing high quality 
-                    products and execeptional customer service. Learn more about our story and 
-                    commitment to your satisfaction
-                </p>
-            </div>
-            <button className="shop-now-button">
-                <Link to="/Productpage">Shop Now</Link>
-            </button>
-
-            <div className='customerReviews'>
-                <h2>Customer Reviews</h2>
-                {DisplayedReviews.map((review, index) => (
-                    <div key={index} className="review">
-                    <p>{review.customerName}</p>
-                    <p>{review.reviewContent}</p>
+        <div className='home-main-section'>
+            <section>
+                <div className='aboutUs'>
+                    <h2>About Us</h2>
                     <p>
-                        Rating: {"★".repeat(review.stars)}
+                        Welcome to our online store! We are passionate about providing high quality 
+                        products and execeptional customer service. Learn more about our story and 
+                        commitment to your satisfaction
                     </p>
                 </div>
-            ))}
-            </div>
-        </section>
+                <button className="shop-now-button">
+                    <Link to="/Productpage">Shop Now</Link>
+                </button>
+
+                <div className='customerReviews'>
+                    <h2>Customer Reviews</h2>
+                    {DisplayedReviews.map((review, index) => (
+                        <div key={index} className="review">
+                        <p>{review.customerName}</p>
+                        <p>{review.reviewContent}</p>
+                        <p>
+                            Rating: {"★".repeat(review.stars)}
+                        </p>
+                    </div>
+                ))}
+                </div>
+            </section>
+        </div>
     );
     }
 
