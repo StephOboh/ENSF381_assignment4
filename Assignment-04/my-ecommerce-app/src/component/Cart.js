@@ -1,3 +1,13 @@
+/*
+=========================================================
+Name        : Cart.js
+Assignment  : Assignment 4
+Author(s)   : Sarah Yip (UCID: 30174831), Stephenie Oboh (UCID: 30151629)
+Submission  : March 24, 2024
+Description : Displaying cart items and calculating cart total
+=========================================================
+*/
+
 import React from 'react';
 import CartItem from './CartItem';
 

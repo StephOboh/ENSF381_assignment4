@@ -1,3 +1,13 @@
+/*
+=========================================================
+Name        : ProductPage.js
+Assignment  : Assignment 4
+Author(s)   : Sarah Yip (UCID: 30174831), Stephenie Oboh (UCID: 30151629)
+Submission  : March 24, 2024
+Description : Handles product management and cart functionality
+=========================================================
+*/
+
 import React, { useState, useEffect } from 'react';
 import Header from './Header';
 import ProductList from './ProductList';

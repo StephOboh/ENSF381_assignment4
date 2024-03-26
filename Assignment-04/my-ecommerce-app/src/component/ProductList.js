@@ -1,3 +1,13 @@
+/*
+=========================================================
+Name        : ProductList.js
+Assignment  : Assignment 4
+Author(s)   : Sarah Yip (UCID: 30174831), Stephenie Oboh (UCID: 30151629)
+Submission  : March 24, 2024
+Description : Maps products and renders ProductItem for each
+=========================================================
+*/
+
 import React from 'react';
 import ProductItem from './ProductItem';
 
