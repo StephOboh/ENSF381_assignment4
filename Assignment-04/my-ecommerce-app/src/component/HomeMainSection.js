@@ -40,7 +40,7 @@ const HomeMainSection = () =>{
                     </p>
                 </div>
                 <button className="shop-now-button">
-                    <Link to="/Productpage">Shop Now</Link>
+                    <Link to="/ProductPage">Shop Now</Link>
                 </button>
 
                 <div className='customerReviews'>
