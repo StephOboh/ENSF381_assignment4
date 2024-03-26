@@ -20,7 +20,7 @@ const Header = () =>{
           <h1>Company Name</h1>
         </header>
         <nav className="navHeader">
-          <Link to="/Homepage" >Home</Link> 
+          <Link to="/" >Home</Link> 
           <Link to="/Productpage" >Products</Link>
           <Link to="/Login" >Login</Link> 
         </nav>
