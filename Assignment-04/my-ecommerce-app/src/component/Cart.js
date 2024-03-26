@@ -54,7 +54,7 @@ const Cart = ({ cart, removeFromCart }) => {
 
   return (
     <div className="cart" style={{ marginLeft: '350px' }}>
-      <h2>Shopping Cart &#128722;&#128722;&#128722;</h2> {/*The addiitonal hex values are shopping cart emojis*/}
+      <h2>Shopping Cart</h2>
       {cart.map(item => (
         <div key={item.id} className="cart-item">
           <img src={item.image} alt={item.name} style={{ width: '200px', height: '200px' }} /> {/* here i am resizing the images to be 200px by 200px in order to have amore unformly looking page */}
