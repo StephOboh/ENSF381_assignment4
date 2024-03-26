@@ -44,7 +44,7 @@ const ProductItem = ({ product, addToCart }) => {
     <div className="product-item">
       <img src={image} alt={name} style={{ width: '200px', height: '200px' }} />
       <div>
-        <h3 onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>{name}</h3>
+        <h3 onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} style={{ fontWeight: 'normal' }}>{name}</h3>
         <p>Price: ${price}</p>
         {/* Show description only when showDescription is true */}
         {showDescription && <p>Description: {description}</p>}
